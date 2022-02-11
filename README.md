@@ -18,7 +18,15 @@ Após o clone do repositório, você pode executar o arquivo *workflow* com seus
 
 `lua workflow -[parâmetro] --[parâmetro2]`
 
+![help image](https://github.com/baky2708/workflow-manager/blob/add-images/images/workflow-manager-help.png)
+
 Depois de executar o script, você terá em seu `~/.config/tmuxinator/`, um arquivo com o workflow criado.
+
+![add file default](https://github.com/baky2708/workflow-manager/blob/add-images/images/workflow-manager-create-react.png)
+
+![add file react](https://github.com/baky2708/workflow-manager/blob/add-images/images/workflow-manager-default-create.png)
+
+![tmuxinator dir](https://github.com/baky2708/workflow-manager/blob/add-images/images/workflow-manager-tmuxinator-dir-react.png)
 
 Você pode colocar o repositório em seu `.local/bin` para executá-lo direto de seus binários.
 
@@ -45,6 +53,10 @@ O segundo argumento serve para adicionar testes em seu workflow.
 ### Depois de Criado
 
 Basta rodar `tmuxinator [nome do workflow]` para iniciar.
+
+![default workflow](https://github.com/baky2708/workflow-manager/blob/add-images/images/workflow-manager-open-default.png)
+
+![react workflow](https://github.com/baky2708/workflow-manager/blob/add-images/images/workflow-manager-open-react.png)
 
 ## Contribuição
 
