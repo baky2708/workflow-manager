@@ -1,8 +1,9 @@
+local open = {}
 local lfs = require('lfs')
 local home = os.getenv('HOME')
 local tmuxinator_path = (home..'/.config/tmuxinator/')
 
-local function create_list()
+open.create_list = function()
 	local list = {}
 	for file in lfs.dir(tmuxinator_path) do
 		if string.sub(file, 1, 1) ~= '.' then
@@ -13,14 +14,14 @@ local function create_list()
 	return list
 end
 
-local function render_open_project()
+open.render_open_project = function()
 	os.execute('clear')
 	print('----------')
 	print('Open Project')
 	print('Choose a project to open:')
 	print('----------')
 
-	local project_list = create_list()
+	local project_list = open.create_list()
 
 	for k, v in pairs(project_list) do
 		print(k, v)
@@ -40,4 +41,4 @@ local function render_open_project()
 
 end
 
-render_open_project()
+return open
