@@ -18,7 +18,6 @@ if arg[1] == '-v' or arg[1] == '-V' then
 end
 
 if not arg[1] or arg[1] == '-h' then
-	os.execute('clear')
 	print()
 	print('Use the arguments')
 	print()

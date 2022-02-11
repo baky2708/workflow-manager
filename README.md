@@ -42,6 +42,10 @@ O segundo argumento serve para adicionar testes em seu workflow.
 
 `lua workflow -r --cypress`
 
+### Depois de Criado
+
+Basta rodar `tmuxinator [nome do workflow]` para iniciar.
+
 ## Contribuição
 
 Posteriormente pretendo adicionar mais modelos workflows e argumentos para o script.
