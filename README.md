@@ -7,7 +7,9 @@ Ele facilita na hora da criação de workflows utilizando tmuxinator como ferram
 ## Dependencias
 
 <a href="https://www.lua.org/start.html" target="_blank">Lua 5.4></a>
+
 <a href="https://github.com/tmux/tmux/wiki" target="_blank">Tmux 3.2></a>
+
 <a href="https://github.com/tmuxinator/tmuxinator" target="_blank">Tmuxinator 3.0></a>
 
 ## Utilização
