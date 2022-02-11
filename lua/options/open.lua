@@ -27,10 +27,17 @@ local function render_open_project()
 	end
 
 	print('\n')
-	local key_pressed = io.read('n')
+	print('press \'q\' to quit')
+	local key_pressed = io.read()
 
-	local file_selected = project_list[tonumber(key_pressed)]
-	os.execute('tmuxinator '.. file_selected)
+	if key_pressed == 'q' then
+		os.execute('exit')
+		os.execute('clear')
+	else
+		local file_selected = project_list[tonumber(key_pressed)]
+		os.execute('tmuxinator '.. file_selected)
+	end
+
 end
 
 render_open_project()
