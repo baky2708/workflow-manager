@@ -6,15 +6,17 @@ Ele facilita na hora da criação de workflows utilizando tmuxinator como ferram
 
 ## Dependencias
 
-- lua 5.4 >
-- tmux 3.2 >
-- tmuxinator 3.0 >
+- [lua 5.4>](https://www.lua.org/start.html)
+- [tmux 3.2>](https://github.com/tmux/tmux/wiki)
+- [tmuxinator 3.0>](https://github.com/tmuxinator/tmuxinator)
 
 ## Utilização
 
 Após o clone do repositório, você pode executar o arquivo *workflow* com seus devidos parâmetros.
 
 `lua workflow -[parâmetro] --[parâmetro2]`
+
+Depois de executar o script, você terá em seu `~/.config/tmuxinator/`, um arquivo com o workflow criado.
 
 Você pode colocar o repositório em seu `.local/bin` para executá-lo direto de seus binários.
 
