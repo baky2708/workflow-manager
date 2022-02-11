@@ -17,6 +17,7 @@ Ele facilita na hora da criação de workflows utilizando tmuxinator como ferram
 Após o clone do repositório, você pode executar o arquivo *workflow* com seus devidos parâmetros.
 
 `lua workflow -[parâmetro] --[parâmetro2]`
+![help image](https://github.com/baky2708/workflow-manager/tree/main/images/workflow-manager-help.png)
 
 Depois de executar o script, você terá em seu `~/.config/tmuxinator/`, um arquivo com o workflow criado.
 
