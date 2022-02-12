@@ -28,7 +28,7 @@ Depois de executar o script, você terá em seu `~/.config/tmuxinator/`, um arqu
 
 ![tmuxinator dir](https://github.com/baky2708/workflow-manager/blob/add-images/images/workflow-manager-tmuxinator-dir-react.png)
 
-Você pode colocar o repositório em seu `.local/bin` para executá-lo direto de seus binários.
+Você pode colocar o repositório em seu `.local/bin` para executá-lo direto de seus binários ou fazer um alias no seu terminal.
 
 ## Argumentos
 
