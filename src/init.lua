@@ -13,15 +13,12 @@ if arg[1] == '-r' or arg[1] == '-react' then
 	options.react()
 end
 
-if arg[1] == arg[1] == '-remove' then
+if arg[1] == '-remove' then
 	options.remove()
 end
 
 if arg[1] == '-q' or arg[1] == '-quit' then
-	local handle = io.popen('tmux display-message -p \'#S\'')
-	local result = handle:read("*a")
-	os.execute('tmuxinator stop '..result)
-	handle:close()
+	options.quit()
 end
 
 if arg[1] == '-v' or arg[1] == '-version' then

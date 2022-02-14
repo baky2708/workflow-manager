@@ -56,7 +56,7 @@ file_content.react = function(file, name, root, editor)
 			'  - editor: \n',
 			'      layout: even-horizontal \n',
 			'      panes: \n',
-			'        - nvim -c \':q\' ; nvim src\n',
+			'        - nvim -c \':q\' ; nvim\n',
 			'        -  \n',
 			'  - notes: \n',
 			'  - server: npm start\n',
