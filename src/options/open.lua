@@ -7,7 +7,7 @@ open.create_list = function()
 	local list = {}
 	for file in lfs.dir(tmuxinator_path) do
 		if string.sub(file, 1, 1) ~= '.' then
-			local file_without_extension = string.match(file, '%w+')
+			local file_without_extension = string.match(file, '(.+)%.')
 			table.insert(list, file_without_extension)
 		end
 	end

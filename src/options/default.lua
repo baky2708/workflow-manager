@@ -1,7 +1,6 @@
 local default = {}
 
 local file_content = require('src.file-content')
-local lfs = require('lfs')
 local HOME = os.getenv('HOME')
 local EDITOR = os.getenv('EDITOR')
 local tmuxinator_path = (HOME..'/.config/tmuxinator/')
@@ -23,7 +22,7 @@ default.get_root_project = function()
 	print('(enter with \".\" to reference the current file')
 	local root_path = io.read()
 	if root_path == '.' then
-		return lfs.currentdir()
+		return Pwd
 	else
 		return root_path
 	end
@@ -40,6 +39,7 @@ default.finished = function(name, root)
 	print('Create new project!\n')
 	print('Project name: '.. name)
 	print('Project root path : '.. root..'\n')
+	print()
 	io.write('(press ENTER to exit)')
 	io.read()
 end
