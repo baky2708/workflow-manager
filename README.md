@@ -8,6 +8,8 @@ Ele facilita na hora da criação de workflows utilizando tmuxinator como ferram
 
 - [lua 5.4>](https://www.lua.org/start.html)
 
+- [lfs](https://keplerproject.github.io/luafilesystem/)
+
 - [tmux 3.2>](https://github.com/tmux/tmux/wiki)
 
 - [tmuxinator 3.0>](https://github.com/tmuxinator/tmuxinator)
